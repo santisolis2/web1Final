@@ -1,0 +1,56 @@
+/* Archivo: public/estilos.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p, ul {
+    text-align: center;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la tarjeta de juego */
+.card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card .price {
+    color: green;
+    font-weight: bold;
+}
+
+.card button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
